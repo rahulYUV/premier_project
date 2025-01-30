@@ -210,12 +210,20 @@
       width: 55%;
       height: 100%;
   }
-  .page2 #left img{
+  /* .page2 #left img{
       width: 100%;
       height: 90vh;
       object-fit: cover;
       object-position: center;
-  }
+  } */
+  .page2 #left img {
+    width: 100%;
+    height: calc(100vh - 10vh); /* Adjusting to fit the full part */
+    object-fit: cover;
+    object-position: top;
+}
+
+
   .page2 #right{
       width: 40%;
       height: 100%;
